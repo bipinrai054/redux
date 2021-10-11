@@ -1,9 +1,10 @@
 import './App.css';
-import CakeContainer from './components/CakeContainer';
+// import CakeContainer from './components/CakeContainer';
 import { Provider } from 'react-redux';
 import store from './redux/store';
-import HooksCakeContainer from './components/HooksCakeContainer';
+// import HooksCakeContainer from './components/HooksCakeContainer';
 import TeaConatainer from './components/TeaConatainer';
+import NewCakeContainer from './components/NewCakeContainer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         {/* <HooksCakeContainer /> */}
         {/* <CakeContainer /> */}
         <TeaConatainer />
+        <NewCakeContainer />
       </div>
     </Provider>
   );
